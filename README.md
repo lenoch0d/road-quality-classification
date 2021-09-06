@@ -5,7 +5,7 @@ road images into six categories based on the overall surface appearance. The pro
 Convolutional Neural Networks (CNN) and achieves 71% accuracy on a test set.
 
 
-## Dataset
+## Road Quality Dataset (RQD)
 In [1] we presented a new manually annotated dataset, collected from Google Street View. 
 The dataset classes were designed for road motorcyclists, but they might also suit other road users.
 The class descriptions and examples can be seen below.
@@ -18,14 +18,14 @@ The class descriptions and examples can be seen below.
  | 3 | Roads have partially cracked surface, large patches, slight unevenness or bumps. An inhomogeneous surface is allowed but without potholes. Riders must pay some attention to the road.|
  | 4 | Roads have an old rough surface, severe alligator cracks, bumps, potholes. Typically also a diverse surface or multi-layer patch repairs.  Riders must pay very close attention to the road, and the fun factor is gone. 
  | 5 | Any unpaved road which is not suitable for a road motorcyclist due to little grip, i.e. cobblestone, forest or dirt road. It could also be a wooden bridge. Only plausible in an emergency with extra caution.
- | 6 | Generally pictures that do not contain roads, or only a small fraction of it not allowing to determine the quality. E.g. images with cars, trees, fields,  buildings or [generic "no-imagery" images](https://maps.googleapis.com/maps/api/streetview?size=600x300&location=78.648401,14.194336&fov=90&heading=235&pitch=10&key=AIzaSyA3kg7YWugGl1lTXmAmaBGPNhDW9pEh5bo&signature=zqYzfBsrogHNZdVCFY7rbCPsAjw=0).
+ | 6 | Generally pictures that do not contain roads, or only a small fraction of it not allowing to determine the quality. E.g. images with cars, trees or fields.
 
 ![Dataset examples](./media/dataset_examples.png)
 ### Download 
 The datasets can be downloaded from the links below. Images are put into folders 1-6 by the assigned class.
 
- - [v2](https://drive.google.com/file/d/15ZiW_lPYK66Xwn0rfu-wsOXYfIVMaH_6/view?usp=sharing) - used for training and validation
- - [test set](https://drive.google.com/file/d/11AF89loT8NJuvcugQ0ASNjN41QhKgTGF/view?usp=sharing) - only for testing
+ - [RQD train set](https://drive.google.com/file/d/1xchkTCyCLXhsNCUDWzaEmEzJgxPSkSSB/view?usp=sharing) - used for training and validation
+ - [RQG test set](https://drive.google.com/file/d/1vcx-RVM-9xN2RixhTAHS7h0nAZU4_-HB/view?usp=sharing) - only for testing
 
 ## Citation
 If you find our work helpful or use the dataset, please cite us as:
