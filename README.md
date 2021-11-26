@@ -22,7 +22,7 @@ The class descriptions and examples can be seen below.
 
 ![Dataset examples](./media/dataset_examples.png)
 ### Download 
-The datasets can be downloaded from the links below. Images are put into folders 1-6 by the assigned class.
+We prepared two datasets: train and test with the split ratio of 85:15. Both of them can be downloaded from the links below. Images are put into folders 1-6 by the assigned class.
 
  - [RQD train set](https://drive.google.com/file/d/1xchkTCyCLXhsNCUDWzaEmEzJgxPSkSSB/view?usp=sharing) - used for training and validation
  - [RQG test set](https://drive.google.com/file/d/1vcx-RVM-9xN2RixhTAHS7h0nAZU4_-HB/view?usp=sharing) - only for testing
@@ -43,4 +43,4 @@ If you find our work helpful or use the dataset, please cite us as:
 ```
 
  ## References
-1. LANK, Martin. Road Quality Classification. Bachelor’s thesis. Czech Technical University in Prague, Faculty of Information Technology, 2021
+1. LANK, Martin. Road Quality Classification. Bachelor’s thesis. Czech Technical University in Prague, Faculty of Information Technology, 2021 Available online: [https://dspace.cvut.cz/handle/10467/95571](https://dspace.cvut.cz/handle/10467/95571)
